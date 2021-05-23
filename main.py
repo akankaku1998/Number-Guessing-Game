@@ -29,7 +29,7 @@ def game_start():
     attempt = 10
   else:
     attempt = 5
-  computer = randint(1, 101)
+  computer = randint(1, 100)
   guess(attempt, level, computer)
 
 game_start()
